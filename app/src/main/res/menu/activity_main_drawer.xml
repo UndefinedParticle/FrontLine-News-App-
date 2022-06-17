@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ndtvnewsnew"
+            android:menuCategory="secondary"
+            android:title="NDTV" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/indiatodaylogo"
+            android:menuCategory="secondary"
+            android:title="India Today" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/newspaper"
+            android:menuCategory="secondary"
+            android:title="BBC News" />
+        <item
+            android:id="@+id/abpfragment"
+            android:menuCategory="secondary"
+            android:icon="@drawable/newspaper"
+            android:title="ABP News" />
+        <item
+            android:id="@+id/aajtakfragment"
+            android:icon="@drawable/newspaper"
+            android:menuCategory="secondary"
+            android:title="Aaj Tak" />
+
+    </group>
+    <item android:title="UpComing"
+
+        android:menuCategory="secondary">
+
+        <menu>
+            <item android:id="@+id/altnewsfragment"
+                android:icon="@drawable/newspaper"
+                android:menuCategory="secondary"
+                android:title="Alt News"/>
+        </menu>
+
+    </item>
+</menu>
